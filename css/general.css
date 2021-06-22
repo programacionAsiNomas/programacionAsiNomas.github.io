@@ -14,7 +14,7 @@ main {
     background-color: DarkOrchid;
 }
 
-//------- INDEX --------//
+/*------- INDEX --------*/
 .portada {
     width: auto;
     height: 200px;
@@ -45,7 +45,7 @@ main {
     background-color: coral;
 }
 
-//-------- JUEGO -------//
+/*-------- JUEGO -------*/
 
 .general {
     width: auto;
@@ -65,9 +65,9 @@ main {
     background-color: HotPink;
 }
 
-//-------- PERSONAJES -------//
+/*-------- PERSONAJES -------*/
 
-//-------- HISTORIA -------//
+/*-------- HISTORIA -------*/
 
 .isla {
     width: auto;
@@ -81,7 +81,7 @@ main {
     background-color: NavajoWhite;
 }
 
-//-------- COMPRA -------//
+/*-------- COMPRA -------*/
 
 #game {
     height: 200px;
