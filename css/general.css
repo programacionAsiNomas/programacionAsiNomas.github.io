@@ -1,3 +1,13 @@
+body {
+    background-color: #202020;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    background-color: DarkSlateGrey;
+}
+
 #game {
     height: 200px;
 }
