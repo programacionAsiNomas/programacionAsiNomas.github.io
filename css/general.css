@@ -2,11 +2,86 @@ body {
     background-color: #202020;
 }
 
+header {
+    width: 900px;
+    margin: 0 auto;
+    backgroun-color: GoldenRod;
+}
+
 main {
     width: 900px;
     margin: 0 auto;
-    background-color: DarkSlateGrey;
+    background-color: DarkOrchid;
 }
+
+//------- INDEX --------//
+.portada {
+    width: auto;
+    height: 200px;
+    background-color: crimson;
+}
+
+.juego {
+    width: auto;
+    height: 200px;
+    background-color: crimson;
+}
+
+.personajes {
+    width: auto;
+    height: 200px;
+    background-color: LightGreen;
+}
+
+.historia {
+    width: auto;
+    height: 200px;
+    background-color: DodgerBlue;
+}
+
+.compra {
+    width: auto;
+    height: 200px;
+    background-color: coral;
+}
+
+//-------- JUEGO -------//
+
+.general {
+    width: auto;
+    height: 200px;
+    background-color: peru;
+}
+
+.poderes {
+    width: auto;
+    height: 200px;
+    background-color: plum;
+}
+
+.fatalities {
+    width: auto;
+    height: 200px;
+    background-color: HotPink;
+}
+
+//-------- PERSONAJES -------//
+
+//-------- HISTORIA -------//
+
+.isla {
+    width: auto;
+    height: 200px;
+    background-color: DarkCyan;
+}
+
+.desafio {
+    width: auto;
+    height: 200px;
+    background-color: NavajoWhite;
+}
+
+//-------- COMPRA -------//
 
 #game {
     height: 200px;
