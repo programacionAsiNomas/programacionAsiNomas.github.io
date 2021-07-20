@@ -1,48 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #202020;
 }
 
 header {
-    width: 900px;
+    width: 100%;
+    height: 60px;
     margin: 0 auto;
-    backgroun-color: GoldenRod;
+    background-color: rgba(0,0,0,.8);
+    position: absolute;
 }
 
 main {
-    width: 900px;
     margin: 0 auto;
     background-color: DarkOrchid;
 }
 
+main h2 {
+    color: goldenrod;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20px;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 160px;
+}
+
+a {
+    padding: 15px 40px;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Vollkorn', serif;
+}
+
+main a {
+    display: block;
+    width: 155px;
+    margin: 0 auto;
+}
+
+header ul {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header li {
+    color: #fafafa;
+    line-height: 60px;
+    font-family: 'Vollkorn', serif;
+}
+
+header a {
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+header a:hover {
+    background-color: #fafafa;
+    color: goldenrod;
+    font-weight: 700;
+}
+
+.logoIndex {
+    height: 60px;
+}
+
+.logoIndex:hover {
+    background-color: goldenrod;
+    transition: all 1s ease;
+}
+
+.logoIndex:hover a {
+    background-color: transparent;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+footer {
+    height: 350px;
+    background-color: black;
+}
+
+.footerCon {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.brandCon {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
+
+.playstation {
+    width: 8%;
+    height: 8%;
+}
+
+.xbox {
+    width: 10%;
+    height: 10%;
+}
+
+.seriesx {
+    width: 14%;
+    height: 14%;
+}
+
+.switch {
+    width: 6%;
+    height: 6%;
+}
+
+.pc {
+    width: 4%;
+    height: 4%;
+}
+
+.logoCon, .signatureCon {
+    width: 200px;
+    font-family: 'Vollkorn', serif;
+    color: #fafafa;
+}
+
+.logoCon {
+    display: inline-block;
+}
+
+.logoCon img {
+    width: 75px;
+    height: auto;
+}
+
+.signatureCon {
+    float: right;
+    padding-top: 150px;
+}
+
 /*------- INDEX --------*/
 .portada {
-    width: auto;
-    height: 200px;
-    background-color: crimson;
+    min-height: 600px;
+    max-width: 1920px;
+    background-image: url(../img/fondo4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portada img {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    background-color: rgb(0,0,0,.4);
+}
+
+.portada h1 {
+    font-family: 'Vollkorn', serif;
+    color: #fafafa;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    top: 64.4%;
+    left: 36.7%;
+    background-color: rgb(0,0,0,.4);
+    filter: blur(0.5px);
+}
+
+.description {
+    width: 500px;
+    font-family: 'Vollkorn', serif;
+    color: #fafafa;
+    background-color: rgba(0,0,0,.5);
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    transition: all 1.5s ease;
+}
+
+.description p {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.description a {
+    transition: all 1.5s ease;
 }
 
 .juego {
-    width: auto;
-    height: 200px;
-    background-color: crimson;
+    min-height: 600px;
+    max-width: 1920px;
+    border-top: 5px solid goldenrod;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, gold, #c59009, #715000) 1 stretch;
+    background-image: url(../img/kombat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .personajes {
-    width: auto;
-    height: 200px;
-    background-color: LightGreen;
+    min-height: 600px;
+    max-width: 1920px;
+    border-top: 5px solid goldenrod;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, gold, #c59009, #715000) 1 stretch;
+    background-image: url(../img/fondosvs.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .historia {
-    width: auto;
-    height: 200px;
-    background-color: DodgerBlue;
+    min-height: 600px;
+    max-width: 1920px;
+    border-top: 5px solid goldenrod;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, gold, #c59009, #715000) 1 stretch;
+    background-image: url(../img/fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .compra {
-    width: auto;
-    height: 200px;
-    background-color: coral;
+    min-height: 600px;
+    max-width: 1920px;
+    border-top: 5px solid goldenrod;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, gold, #c59009, #715000) 1 stretch;
+    background-image: url(../img/fondo5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.compra h2 {
+    margin-bottom: 0px;
+}
+
+.optContainer {
+    width: 1120px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.option {
+    width: 315px;
+    height: auto;
+    background-color: rgb(130 84 0 / 10%);
+    border: 4px inset goldenrod;
+    transition: all 1.5s ease;
+}
+
+.option img {
+    width: 177px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.option p {
+    color: #fafafa;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.option:hover {
+    background-color: rgb(130 84 0 / 40%);
+    box-shadow: 0px 0px 5px 2px goldenrod;
+}
+
+.optPerk {
+    width: 215px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+
+}
+
+.optPerk p {
+    font-size: 1em;
+}
+
+.optPerk ul {
+    list-style-type: none;
+    color: #fafafa;
+    font-family: 'Vollkorn', serif;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.option a {
+    margin: 0 auto;
+    width: 155px;
+    display: block;
+    transition: all ease 1.5s;
+    margin-bottom: 45px;
+}
+
+.option a:hover, .description a:hover {
+    background-color: #fafafa;
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+
+.after img {
+    padding-bottom: 20px;
+}
+
+.after .optPerk {
+    padding-top: 25px;
 }
 
 /*-------- JUEGO -------*/
@@ -78,7 +373,7 @@ main {
 .desafio {
     width: auto;
     height: 200px;
-    background-color: NavajoWhite;
+    background-color: Navajo#fafafa;
 }
 
 /*-------- COMPRA -------*/

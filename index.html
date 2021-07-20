@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/favico.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/general.css">
         <link rel="stylesheet" type="text/css" href="css/pages.css">
         <link rel="stylesheet" type="text/css" href="css/mobile.css">
@@ -11,37 +15,109 @@
     <body>
         <header>
             <ul>
-                <li><a href="index.html"><img src="img/mklogo.png"></a></li>
-                <li><a href="pages/game.html">Juego</a></li>
-                <li><a href="pages/characters.html">Personajes</a></li>
-                <li><a href="pages/story.html">Historia</a></li>
-                <li><a href="pages/buy.html">Comprar</a></li>
+                <li class="logoIndex"><a href="index.html"><img src="img/mklogo.png"></a></li>
+                <li><a href="pages/game.html">JUEGO</a></li>
+                <li><a href="pages/characters.html">PERSONAJES</a></li>
+                <li><a href="pages/story.html">HISTORIA</a></li>
+                <li><a href="pages/buy.html">COMPRAR</a></li>
             </ul>
         </header>
         <main>
             <div class="portada">
-                <h1>Mortal Compa</h1>
+                <img src="img/mkiso.png">
+                <h1>EMPIEZA EL COMBATE</h1>
                 <p></p>
             </div>
             <div class="juego">
-                <h2>El Juego</h2>
-                <a href="pages/game.html">Ver más</a>
+                <h2>UNA PELEA DIFERENTE</h2>
+                <div class="description">
+                    <p>Probá kombos y descubrí las fatalities</p>
+                    <a href="pages/game.html">VER MÁS</a>  
+                </div>
+                
             </div>
             <div class="personajes">
-                <h2>Personajes</h2>
-                <a href="pages/characters.html">Ver más</a>
+                <h2>CONOCÉ A LOS ELEGIDOS</h2>
+                <div class="description">
+                    <p>Siete guerreros listos para pelear</p>
+                    <a href="pages/characters.html">VER MÁS</a>
+                </div>
             </div>
             <div class="historia">
-                <h2>Historia</h2>
-                <a href="pages/story.html">Ver más</a>
+                <h2>GANÁ EL TORNEO, SALVÁ EL MUNDO</h2>
+                <div class="description">
+                    <p>La supervivencia de la Humanidad <br> se pone en juego en un último torneo</p>
+                    <a href="pages/story.html">VER MÁS</a>
+                </div>
             </div>
             <div class="compra">
-                <h2>Comprar ahora</h2>
-                <a href="pages/buy.html">Ver más</a>
+                <h2>ELEGÍ TU DESTINO</h2>
+                <div class="optContainer">
+                    <div class="option normal">
+                        <img src="img/portada1b.png">
+                        <p>MORTAL KOMBAT</p>
+                        <div class="optPerk">
+                            <p>INCLUYE</p>
+                            <ul>
+                                <li>Los siete luchadores originales</li>
+                                <li>La historia original</li>
+                                <li>Un luchador secreto</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="pages/buy.html">COMPRAR</a>
+                    </div>
+                    <div class="option after">
+                        <img src="img/portada2b.png">
+                        <p>MORTAL KOMBAT AFTERMATH</p>
+                        <div class="optPerk">
+                            <p>INCLUYE</p>
+                            <ul>
+                                <li>Juega con Shang-Tsung</li>
+                                <li>Una nueva historia</li>
+                                <li>Dos luchadores secretos</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="pages/buy.html">COMPRAR</a>
+                    </div>
+                    <div class="option ulti">
+                        <img src="img/portada3b.png">
+                        <p>ULTIMATE MORTAL KOMBAT</p>
+                        <div class="optPerk">
+                           <p>INCLUYE</p>
+                            <ul>
+                                <li>Juega con Milena y Rain</li>
+                                <li>Juega con Rambo y Terminator</li>
+                                <li>Tres luchadores secretos</li>
+                            </ul> 
+                        </div>
+                        
+                        <a href="pages/buy.html">COMPRAR</a>
+                    </div>
+                </div>
+                
             </div>
         </main>
         <footer>
-
+            <div class="footerCon">
+                <div class="brandCon">
+                    <img class="playstation" src="img/ps4.png">
+                    <img class="playstation" src="img/ps5.png">
+                    <img class="xbox" src="img/xbo.png">
+                    <img class="seriesx" src="img/xbsx.png">
+                    <img class="switch" src="img/switch.png">
+                    <img class="pc" src="img/pc.png">
+                </div>
+                <div class="logoCon">
+                    <img src="img/mklogo.png">
+                    <p>Mortal Kombat fue un juego creado por Ed Boon y John Tobias. Acá estamos jugando con la posibilidad de un remake actualizado.</p>
+                </div>
+                <div class="signatureCon">
+                    <p>Hecho por:</p>
+                    <p>Año 2021</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
